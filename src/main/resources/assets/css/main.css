@@ -1,0 +1,30 @@
+.error {
+    color: red;
+}
+
+body {
+  padding-top: 80px;
+  padding-bottom: 40px;
+  background-color: #f7f7f7;
+}
+
+.form-signin {
+  max-width: 400px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.signup-link {
+    text-align: center;
+}
+
+.custom-input {
+    height: 47px;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.custom-button {
+    height: 48px;
+    margin-top: 10px;
+}
