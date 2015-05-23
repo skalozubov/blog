@@ -18,13 +18,18 @@ body {
     text-align: center;
 }
 
+.login-link {
+    text-align: left;
+}
+
 .custom-input {
-    height: 47px;
-    margin-bottom: 5px;
+    height: 48px;
+    margin-bottom: 12px;
     font-size: 16px;
 }
 
 .custom-button {
-    height: 48px;
-    margin-top: 10px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 5px;
 }
