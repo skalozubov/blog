@@ -1,2 +1,2 @@
 #!/bin/sh
-mvn compile exec:java -Dexec.mainClass=course.BlogController
+mvn compile exec:java -Dexec.mainClass=org.askalozubov.blog.BlogController

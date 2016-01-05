@@ -1,4 +1,4 @@
-package course;
+package org.askalozubov.blog;
 
 import freemarker.template.Configuration;
 import freemarker.template.Template;

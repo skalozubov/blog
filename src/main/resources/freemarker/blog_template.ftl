@@ -40,7 +40,7 @@
                 <h2 class="blog-post-title"><a href="/post/${post["permalink"]}">${post["title"]}</a></h2>
                 <p class="blog-post-meta">Posted ${post["date"]?datetime} by <a href="#">${post["author"]}</a></p>
                 <hr>
-                ${post["body"]!""}
+                ${post["body"]?replace("&gt;", ">")?replace("&lt;", "<")?replace("&quot;", "\"")!""}
                 <p>
 
                 <p>

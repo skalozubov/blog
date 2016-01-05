@@ -1,4 +1,4 @@
-package course;
+package org.askalozubov.blog;
 
 import com.mongodb.DB;
 import com.mongodb.DBObject;
@@ -83,6 +83,7 @@ public class BlogController {
                 System.out.println("/post: get " + permalink);
 
                 DBObject post = blogPostDAO.findByPermalink(permalink);
+                System.out.println(post.get("body"));
                 if (post == null) {
                     response.redirect("/post_not_found");
                 }

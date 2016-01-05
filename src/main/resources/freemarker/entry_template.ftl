@@ -17,7 +17,9 @@
 <h2>${post["title"]}</h2>
 Posted ${post["date"]?datetime}<i> By ${post["author"]}</i><br>
 <hr>
-${post["body"]}
+${post["body"]?replace("&gt;", ">")?replace("&lt;", "<")?replace("&quot;", "\"")}
+
+
 <p>
     <em>Filed Under</em>:
     <#if post["tags"]??>
@@ -56,5 +58,3 @@ ${post["body"]}
 </ul>
 </body>
 </html>
-
-
